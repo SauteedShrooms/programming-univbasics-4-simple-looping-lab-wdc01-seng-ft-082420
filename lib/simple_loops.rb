@@ -12,7 +12,7 @@ def loop_message_n_times(message, number)
   counter = 0
   number = 10
   
-  while counter <= number do
+  while counter < number do
     puts message
     counter += 1
   end
@@ -23,11 +23,17 @@ def output_array(array)
   counter = 0 
   
   while counter < array.length do
-    puts array
+    puts array[counter]
     counter += 1
   end
 end
 
 
 def return_string_array(array)
+  counter = 0
   
+  while count < array.length do
+    array[count].to_s
+    counter += 1
+  end
+end
